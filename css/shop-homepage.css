@@ -1,0 +1,223 @@
+.col-lg-9{
+  margin-top:0;
+  }.search-row{
+  border:1px solid grey;
+  border-radius: 8px;
+  height:auto;
+  padding:5%;
+  margin-bottom: 5%;
+  }.btn-group button {
+  background-color: transparent; /* Green background */
+  border: 1px solid cadetblue; /* Green border */
+  color: white; /* White text */
+  padding-left: 24px;
+  padding-right:24px;/* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  height:40px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color:cadetblue ;
+}.photo-particular{
+  height:170px;
+  background-color: #0d4d6e;
+}
+.pic{
+  height:170px;
+  margin-left:13.4%;
+border:1px solid #cedebd;
+  width:15%;
+  border-radius:8px;
+}
+.container{
+  margin-top:5%;
+}
+
+
+
+.card-text{
+  overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   line-height: 16px;
+   max-height: 48px;
+   -webkit-line-clamp: 3; /* Write the number of
+                             lines you want to be
+                             displayed */
+   -webkit-box-orient: vertical;
+
+}
+.see-more{
+  border: none;
+  background-color: white;
+  color: blue;
+  outline: none;
+}
+.see-more:active{
+  border-color:white;
+  outline-color:white;
+}
+.myDIV{
+  width: 100%;
+
+  text-align: center;
+  background-color: white;
+  display: none;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-style: dotted;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 30%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.coupon {
+
+  width: 100%;
+  border-radius: 30px;
+  margin: 0;
+  max-width: 600px;
+}
+
+.container2 {
+  padding: 2px 16px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.promo {
+  background: #ccc;
+  padding: 3px;
+}
+
+.expire {
+  color: red;
+}
+.coupon .container2{
+  margin-left: 0;
+}
+img.image-coupon{
+  height:250px;
+  width: 70%;
+}
+.company-logo{
+  display: inline-block;
+}
+.image-area{
+  width: 60%;
+  margin-left: 20%;
+}
+.promo-code{
+  display:inline-block;
+  border:dashed;
+  border-color: lightcoral;
+  padding-right: 5%;
+padding-left: 5%;
+padding-top: 3%;
+padding-bottom: 3%;
+
+margin-left: 0px;
+margin-right: 5%;
+}
+@media(max-width:1206px){
+  .modal-content{
+    width: 40%;
+  }
+}
+@media(max-width:893px){
+  .modal-content{
+    width: 70%;
+  }
+}
+@media(max-width:728px){
+  .modal-content{
+    width:90%;
+  }
+}
+.card-footer{
+  text-align: center;
+}
+.col-lg-3{
+  max-width:100%;
+}
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+
+}
+
+
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+ul{
+  margin-top:16px;
+}
+input[type="checkbox"]{
+  margin-right:5%;
+}

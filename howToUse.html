@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+    <title>Shop Homepage - Start Bootstrap Template</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <script src="js/seeMoreFunctionFile - Copy.js"></script>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link href="css/shop-homepage - Copy.css" rel="stylesheet">
+  <link href="css/header-normal.css" rel="stylesheet">
+
+<style>body{
+  overflow-x: initial;
+}</style>
+</head>
+<body onload="showFilter(); seeMoreFunction() ; Modal() ; openNav() ; closeNav() ; mobileView()">
+
+  <!-- Navigation -->
+  <nav>
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-light">
+
+        <button class="openbtn" id="openbtn" onclick="openNav()">☰</button>
+        <img class="navbar-brand" src="images/logo - Copy.png" height="50" / />
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home<hr class="line" style="display:none"></a>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <button onclick="mobileView()" class="dropbtn">Shopping<hr class="line" style="display:none"></button>
+                <div class="dropdown-content a">
+                  <div class="row">
+                    <div class="column">
+                      <p type="button" onclick="mobileViewUnder()" class="heading-of">Mobile and Electronics
+                        <hr class="separate">
+                      </p><div class="mobileViewUnder">
+
+
+                        <a href="mobile.html">Mobile Phone</a>
+                        <a href="computer.html">Computer and Laptop</a>
+                        <a href="electronics.html">Electronics</a>
+                        <a href="powerBanks.html">Power Banks</a>
+                        <a href="washingMachine.html">Washing Machines</a>
+                    </div></div>
+                    <div class="column">
+                      <p type="button" onclick="mobileViewUnder()" class="heading-of">Fashion and Lifestyle
+                        <hr class="separate">
+                      </p>
+                      <div class="mobileViewUnder">
+                        <a href="clothes.html">Clothes</a>
+
+                        <a href="footwear.html">Footwear</a>
+                        <a href="watches.html">Watches</a>
+
+                        <a href="beauty.html">Beauty</a>
+
+                      <!--  <a href="#">Trimmers and Shavers</a>-->
+                        <a href="bags.html">Bags</a>
+                        <a href="sunglasses.html">Sunglasses</a>
+                    </div></div>
+
+                    <div class="column">
+                      <p type="button" onclick="mobileViewUnder()" class="heading-of">Other Categories
+                        <hr class="separate">
+                      </p><div class="mobileViewUnder">
+                        <a href="recharge.html">Mobile Recharge</a>
+                        <a href="babyProduct.html">Baby Products</a>
+                        <a href="book.html">Books</a>
+                        <a href="car.html">Car Accessories</a>
+                        <a href="grocery.html">Grocery</a>
+                        <a href="health.html">Health and Fitness</a>
+                        <a href="sports.html">Sports Products</a>
+                        <a href="homeApp.html">Home Appliances</a>
+                    </div></div>
+                    <div class="column">
+                      <p type="button" onclick="mobileViewUnder()" class="heading-of">Top Brands
+                        <hr class="separate">
+                      </p>
+                      <div class="mobileViewUnder">
+                        <a href="adidas.html">Adidas</a>
+                        <a href="nike.html">Nike</a>
+                        <a href="puma.html">Puma</a>
+                        <a href="benetton.html">Benetton</a>
+                        <a href="samsung.html">Samsung</a>
+                        <a href="apple.html">Apple</a>
+                    </div></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown" >
+                <button onclick="mobileView()" class="dropbtn">Travel<hr class="line" style="display:none"></button>
+                <div class="dropdown-content a" style="max-width:400%;min-width:400%">
+                  <a href="domestic.html">Domestic Flights</a>
+                  <a href="inter.html">International Flights</a>
+                  <a href="hotel.html">Hotel Booking</a>
+                  <a href="bus.html">Bus Tickets</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown" >
+                <button onclick="mobileView()" class="dropbtn">Bank<hr class="line" style="display:none"></button>
+                <div class="dropdown-content a" style="max-width:400%;min-width:400%">
+                  <a href="hdfc.html">HDFC Bank Offers</a>
+                  <a href="icici.html">ICICI Bank Offers</a>
+                  <a href="axis.html">AXIS Bank Offers</a>
+                  <a href="sbi.html"> SBI Card Offers</a>
+                </div>
+              </div>
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="food.html">Food<hr class="line" style="display:none"></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Top Deals<hr class="line" style="display:none"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Exclusive<hr class="line" style="display:none"></a>
+            </li>
+
+          </ul>
+        </div>
+        <form class="form-inline">
+
+          <a class="mp" href="signUp.html"><i class="fas fa-user"></i></a>
+        </form>
+      </nav>
+
+
+    <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">How to apply Coupons?</h1>
+    <p class="lead">At <b>COUPON THIKANA</b>, we have coupons and we also have deals. The basic difference is that if there is a coupon code, you need to apply that coupon code at the time of payment at the merchant’s website. However, in case of deals, there is no need of applying the coupon, the discount is automatically provided on meeting the terms and conditions of the deal. So, to use coupon code, just click on “Click to Get Coupon” button and you will be redirected to the merchant’s website in a new tab through an affiliate link. Now add the products you want to buy in your cart and then come back to CouponzGuru in the previous tab; copy the coupon code and apply the same at the merchant’s website. In case of deals, you don’t need to come back to copy the code.</p>
+<p class="lead">
+  To apply a Coupon code follow the below steps-
+  </p>
+  <p class="lead">
+    1.Select the card
+    </p>
+    <p class="lead">
+      2.Click on the specified Button..,GET THE DEAL or GET THE COUPON
+      </p>
+      <p class="lead">
+        3.Just copy the code and apply on your product......
+        </p>
+
+  </div>
+</div>
+
+
+
+<section id="footer">
+
+  <div class="container3">
+
+
+    <div class="row text-center text-xs-center text-sm-left text-md-left">
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <h6>HELP</h6>
+        <ul class="list-unstyled quick-links">
+          <li><a href="contactUs.html">Contact</a></li>
+          <li><a href="terms.html">Terms Of Use</a></li>
+
+          <li><a href="howToUse.html">How To Apply</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <h6>COUPON THIKANA</h6>
+        <ul class="list-unstyled quick-links">
+          <li><a href="aboutUs.html">About Us</a></li>
+          <li><a href="link.html">List Your Business</a></li>
+          <li><a href="whatWeDo.html">What we do</a></li>
+
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <h6>MISC</h6>
+        <ul class="list-unstyled quick-links">
+          <li><a href="privacyPolicy.html">Privacy Policy</a></li>
+          <li><a href="termsAndCond.html">Terms And Consitions</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+        <ul class="list-unstyled list-inline social text-center">
+          <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="iconn fab fa-twitter"></i></a></li>
+          <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="iconn fab fa-facebook-f"></i></a></li>
+
+          <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="iconn fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+        <p><u><a href="">National Transaction Corporation</a></u> is a Registered MSP/ISO of Elavon, Inc. Georgia [a wholly owned subsidiary of U.S. Bancorp, Minneapolis, MN]</p>
+        <p class="h6">© All right Reversed.<a class="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">Naman Jain</a></p>
+      </div>
+      <hr>
+    </div>
+  </div>
+</section>
+
+  </body>
+</html>

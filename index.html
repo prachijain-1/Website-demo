@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>bro</title>
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel="stylesheet" href="css/styles.css" />
+
+
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="myProjects/webProject/icofont/css/icofont.min.css">
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="js/seeMoreFunctionFile - Copy.js"></script>
+
+
+
+
+</head>
+
+<body onload="Modal();  openNav() ; closeNav() ; mobileView(); mobileViewUnder();Modals()">
+
+  <div class="fixed-top">
+    <article>
+      <header>
+        <nav>
+          <div>
+            <nav class="navbar navbar-expand-lg navbar-light">
+
+              <button class="openbtn" id="openbtn" onclick="openNav()">☰</button>
+              <img class="navbar-brand" src="images/logo - Copy.png" height="50">
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <ul class="navbar-nav">
+
+                  <li class="nav-item">
+                    <div class="dropdown">
+                      <button onclick="mobileView()" class="dropbtn">Shopping<hr class="line" style="display:none"></button>
+                      <div class="dropdown-content a">
+                        <div class="row">
+                          <div class="column">
+                            <p type="button" onclick="mobileViewUnder()" class="heading-of">Mobile and Electronics
+                              <hr class="separate">
+                            </p><div class="mobileViewUnder">
+
+
+                              <a href="mobile.html">Mobile Phone</a>
+                              <a href="computer.html">Computer and Laptop</a>
+                              <a href="electronics.html">Electronics</a>
+                              <a href="powerBanks.html">Power Banks</a>
+                              <a href="washingMachine.html">Washing Machines</a>
+                          </div></div>
+                          <div class="column">
+                            <p type="button" onclick="mobileViewUnder()" class="heading-of">Fashion and Lifestyle
+                              <hr class="separate">
+                            </p>
+                            <div class="mobileViewUnder">
+                              <a href="clothes.html">Clothes</a>
+
+                              <a href="footwear.html">Footwear</a>
+                              <a href="watches.html">Watches</a>
+
+                              <a href="beauty.html">Beauty</a>
+
+                            <!--  <a href="#">Trimmers and Shavers</a>-->
+                              <a href="bags.html">Bags</a>
+                              <a href="sunglasses.html">Sunglasses</a>
+                          </div></div>
+
+                          <div class="column">
+                            <p type="button" onclick="mobileViewUnder()" class="heading-of">Other Categories
+                              <hr class="separate">
+                            </p><div class="mobileViewUnder">
+                              <a href="recharge.html">Mobile Recharge</a>
+                              <a href="babyProduct.html">Baby Products</a>
+                              <a href="book.html">Books</a>
+                              <a href="car.html">Car Accessories</a>
+                              <a href="grocery.html">Grocery</a>
+                              <a href="health.html">Health and Fitness</a>
+                              <a href="sports.html">Sports Products</a>
+                              <a href="homeApp.html">Home Appliances</a>
+                          </div></div>
+                          <div class="column">
+                            <p type="button" onclick="mobileViewUnder()" class="heading-of">Top Brands
+                              <hr class="separate">
+                            </p>
+                            <div class="mobileViewUnder">
+                              <a href="adidas.html">Adidas</a>
+                              <a href="nike.html">Nike</a>
+                              <a href="puma.html">Puma</a>
+                              <a href="benetton.html">Benetton</a>
+                              <a href="samsung.html">Samsung</a>
+                              <a href="apple.html">Apple</a>
+                          </div></div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="dropdown" >
+                      <button onclick="mobileView()" class="dropbtn">Travel<hr class="line" style="display:none"></button>
+                      <div class="dropdown-content a" style="max-width:400%;min-width:400%">
+                        <a href="domestic.html">Domestic Flights</a>
+                        <a href="inter.html">International Flights</a>
+                        <a href="hotel.html">Hotel Booking</a>
+                        <a href="bus.html">Bus Tickets</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="dropdown" >
+                      <button onclick="mobileView()" class="dropbtn">Bank<hr class="line" style="display:none"></button>
+                      <div class="dropdown-content a" style="max-width:400%;min-width:400%">
+                        <a href="hdfc.html">HDFC Bank Offers</a>
+                        <a href="icici.html">ICICI Bank Offers</a>
+                        <a href="axis.html">AXIS Bank Offers</a>
+                        <a href="sbi.html"> SBI Card Offers</a>
+                      </div>
+                    </div>
+
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="food.html">Food<hr class="line" style="display:none"></a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html.#dealss">Top Deals<hr class="line" style="display:none"></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html.#exclusivee">Exclusive<hr class="line" style="display:none"></a>
+                  </li>
+
+                </ul>
+              </div>
+              <form class="form-inline">
+
+                <a class="mp" href="signUp.html"><i class="fas fa-user"></i></a>
+              </form>
+            </nav>
+          </div>
+        </nav>
+      </header>
+    </article>
+  </div>
+
+
+
+
+
+  <!--<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <img class="navbar-brand" src="images/download.jpg" height="50" / />
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+  </nav>-->
+
+  <hr class="header-end">
+
+
+
+  <!--//slider start//////////////////////-->
+  <div>
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img src="images/slide1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images\slide1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/slide1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+
+          </div>
+        </div>
+
+      </div>
+      <div class="slider-side-cont">
+        <div class="slider-side-cont-heading">
+          Coupon Thikana</div>
+        <div class="slider-side-down-cont">
+          A Penny Saved Is a Penny Earned
+        </div>
+      </div>
+      <div class="search-bar">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search For Mobiles, Flipkart Offers, Amazon........" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </div>
+
+    </div>
+
+  </div>
+  <!--//slider end///////////////////////////////////////-->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="types1">Trending Stores.
+        <hr>
+      </h1>
+
+
+      <a href=""><img class="head" src="images/amaz.png" height="70em" width="150em" /></a><a href=""><img class="head" src="images/amaz.png" height="70em" width="150em" /></a>
+      <a href=""><img class="head" src="images/flip.png" height="70em" width="150em" /></a>
+      <a href=""><img class="head" src="images/myn.jpg" height="70em" width="150em" /></a>
+      <a href=""><img class="head" src="images/ajio.jpg" height="70em" width="150em" /></a>
+      <a href=""><img class="head" src="images/yo.jpg" height="70em" width="150em" /></a>
+      <a href=""><img class="head" src="images/trip.png" height="70em" width="150em" /></a>
+      <a href=""><img class="head" src="images/amaz.png" height="70em" width="150em" /></a>
+
+
+    </div>
+  </div>
+
+
+  <br />
+
+
+  <!--coupons and deals start/////////////////////-->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1><i class="fa fa-fire" aria-hidden="true"></i> HOT COUPONS
+        <hr class="distance">
+      </h1>
+      <div class="card-deck">
+        <div class="card">
+          <img src="images/samsung-logoc
+              .png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">SAVE 10%</h5>
+            <p class="card-text">Laptop Bonanza – Upto 45% Off On Top Brands + Extra 10% HDFC Off + No Cost EMI & Exchange</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-success" id="myBtn">GET THIS COUPON</button>
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <div class="coupon">
+                  <div class="container2">
+                    <h3 class="company-logo">SAVE 20%</h3><span class="close">&times;</span>
+                  </div>
+                  <div class="image-area">
+                    <img class="image-coupon" src="images\amazon.jpg" alt="Avatar" style="width:100%;"></div>
+                  <div class="container2" style="background-color:white">
+                    <div class="promo-code">
+                      BH4238V
+                    </div>
+                    <button type="button" class="btn btn-primary">COPY CODE</button>
+                  </div><br>
+                  <div class="container2">
+
+                    <p class="expire">Expires: Jan 03, 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/samsung.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">SAVE 15%</h5>
+            <p class="card-text">Samsung BlueFest – Upto 65% Off Deals + Upto Rs.6000 HDFC CB + Exchange & No Cost EMI Offer</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-success" id="myBtn">GET THIS COUPON</button>
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <div class="coupon">
+                  <div class="container2">
+                    <h3 class="company-logo">SAVE 20%</h3><span class="close">&times;</span>
+                  </div>
+                  <div class="image-area">
+                    <img class="image-coupon" src="images\amazon.jpg" alt="Avatar" style="width:100%;"></div>
+                  <div class="container2" style="background-color:white">
+                    <div class="promo-code">
+                      BH4238V
+                    </div>
+                    <button type="button" class="btn btn-primary">COPY CODE</button>
+                  </div><br>
+                  <div class="container2">
+
+                    <p class="expire">Expires: Jan 03, 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/lifestyle.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Half Price Early Preview Sale – Upto 50% Off + Extra 10% Off On Rs.1999 + 5% SBI Cashback</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-success" id="myBtn">GET THIS COUPON</button>
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <div class="coupon">
+                  <div class="container2">
+                    <h3 class="company-logo">SAVE 20%</h3><span class="close">&times;</span>
+                  </div>
+                  <div class="image-area">
+                    <img class="image-coupon" src="images\amazon.jpg" alt="Avatar" style="width:100%;"></div>
+                  <div class="container2" style="background-color:white">
+                    <div class="promo-code">
+                      BH4238V
+                    </div>
+                    <button type="button" class="btn btn-primary">COPY CODE</button>
+                  </div><br>
+                  <div class="container2">
+
+                    <p class="expire">Expires: Jan 03, 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/adidas.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Sale – Upto 40% Off + Extra 15% Off On Footwear, Clothing & Accessories</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-success" id="myBtn">GET THIS COUPON</button>
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <div class="coupon">
+                  <div class="container2">
+                    <h3 class="company-logo">SAVE 20%</h3><span class="close">&times;</span>
+                  </div>
+                  <div class="image-area">
+                    <img class="image-coupon" src="images\amazon.jpg" alt="Avatar" style="width:100%;"></div>
+                  <div class="container2" style="background-color:white">
+                    <div class="promo-code">
+                      BH4238V
+                    </div>
+                    <button type="button" class="btn btn-primary">COPY CODE</button>
+                  </div><br>
+                  <div class="container2">
+
+                    <p class="expire">Expires: Jan 03, 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/m.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">All User – Upto 70% Off + Extra Rs.300 Off On Prepaid Order Of Rs.999</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-success" id="myBtn">GET THIS COUPON</button>
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <div class="coupon">
+                  <div class="container2">
+                    <h3 class="company-logo">SAVE 20%</h3><span class="close">&times;</span>
+                  </div>
+                  <div class="image-area">
+                    <img class="image-coupon" src="images\amazon.jpg" alt="Avatar" style="width:100%;"></div>
+                  <div class="container2" style="background-color:white">
+                    <div class="promo-code">
+                      BH4238V
+                    </div>
+                    <button type="button" class="btn btn-primary">COPY CODE</button>
+                  </div><br>
+                  <div class="container2">
+
+                    <p class="expire">Expires: Jan 03, 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/swiggy.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">New User – Flat 50% Off On 1st Order, Minimum Order Value Of Rs.129</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-success" id="myBtn">GET THIS COUPON</button>
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <div class="coupon">
+                  <div class="container2">
+                    <h3 class="company-logo">SAVE 20%</h3><span class="close">&times;</span>
+                  </div>
+                  <div class="image-area">
+                    <img class="image-coupon" src="images\amazon.jpg" alt="Avatar" style="width:100%;"></div>
+                  <div class="container2" style="background-color:white">
+                    <div class="promo-code">
+                      BH4238V
+                    </div>
+                    <button type="button" class="btn btn-primary">COPY CODE</button>
+                  </div><br>
+                  <div class="container2">
+
+                    <p class="expire">Expires: Jan 03, 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/swiggy.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">New User – Flat 50% Off On 1st Order, Minimum Order Value Of Rs.129</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-success" id="myBtn">GET THIS COUPON</button>
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <div class="coupon">
+                  <div class="container2">
+                    <h3 class="company-logo">SAVE 20%</h3><span class="close">&times;</span>
+                  </div>
+                  <div class="image-area">
+                    <img class="image-coupon" src="images\amazon.jpg" alt="Avatar" style="width:100%;"></div>
+                  <div class="container2" style="background-color:white">
+                    <div class="promo-code">
+                      BH4238V
+                    </div>
+                    <button type="button" class="btn btn-primary">COPY CODE</button>
+                  </div><br>
+                  <div class="container2">
+
+                    <p class="expire">Expires: Jan 03, 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/swiggy.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">New User – Flat 50% Off On 1st Order, Minimum Order Value Of Rs.129</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-success" id="myBtn">GET THIS COUPON</button>
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <div class="coupon">
+                  <div class="container2">
+                    <h3 class="company-logo">SAVE 20%</h3><span class="close">&times;</span>
+                  </div>
+                  <div class="image-area">
+                    <img class="image-coupon" src="images\amazon.jpg" alt="Avatar" style="width:100%;"></div>
+                  <div class="container2" style="background-color:white">
+                    <div class="promo-code">
+                      BH4238V
+                    </div>
+                    <button type="button" class="btn btn-primary">COPY CODE</button>
+                  </div><br>
+                  <div class="container2">
+
+                    <p class="expire">Expires: Jan 03, 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <input type=button class="myButton" onClick="parent.location='hotCoupon.html'" value='Show All Coupons'>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container" id="dealss">
+
+      <h1><i class="fa fa-tags"  aria-hidden="true"></i> DEALS OF THE DAY
+        <hr class="distance">
+      </h1>
+      <div class="card-deck">
+        <div class="card">
+          <img src="images/flip.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">SAVE 10%</h5>
+            <p class="card-text">Laptop Bonanza – Upto 45% Off On Top Brands + Extra 10% HDFC Off + No Cost EMI & Exchange</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-primary">GET THIS DEAL</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/samsung.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">SAVE 15%</h5>
+            <p class="card-text">Samsung BlueFest – Upto 65% Off Deals + Upto Rs.6000 HDFC CB + Exchange & No Cost EMI Offer</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-primary">GET THIS DEAL</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/lifestyle.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Half Price Early Preview Sale – Upto 50% Off + Extra 10% Off On Rs.1999 + 5% SBI Cashback</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-primary">GET THIS DEAL</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/adidas.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Sale – Upto 40% Off + Extra 15% Off On Footwear, Clothing & Accessories</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-primary">GET THIS DEAL</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/m.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">All User – Upto 70% Off + Extra Rs.300 Off On Prepaid Order Of Rs.999</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-primary">GET THIS DEAL</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/swiggy.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">New User – Flat 50% Off On 1st Order, Minimum Order Value Of Rs.129</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-primary">GET THIS DEAL</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/swiggy.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">New User – Flat 50% Off On 1st Order, Minimum Order Value Of Rs.129</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-primary">GET THIS DEAL</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/swiggy.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">New User – Flat 50% Off On 1st Order, Minimum Order Value Of Rs.129</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-primary">GET THIS DEAL</button>
+          </div>
+
+        </div>        <input type=button class="myButton" onClick="parent.location='dealsCoupon.html'" value='Show All Coupons'>
+
+      </div>
+    </div>
+  </div>
+  <div class="subscribe" style="margin-top:4%">
+    <div class="subscribe-heading">Subscribe to get the best deals delivered right in your email.</div>
+    <input class="form-control mr-sm-2" type="search" placeholder="Enter Your Mail Address">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Subscribe</button>
+    <div class="mail-div">
+      <img src="images\subscribe.png" class="subscribe-img" alt="">
+    </div>
+
+  </div>
+
+  <div class="jumbotron jumbotron-fluid" style="margin-top:4%">
+    <div class="container" id="exclusivee">
+      <h1><i class="fa fa-bolt" aria-hidden="true"></i> EXCLUSIVE COUPONS
+        <hr class="distance">
+      </h1>
+      <div class="card-deck">
+        <div class="card">
+          <img src="images/flip.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">SAVE 10%</h5>
+            <p class="card-text">Laptop Bonanza – Upto 45% Off On Top Brands + Extra 10% HDFC Off + No Cost EMI & Exchange</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-success" id="myBtn">GET THIS COUPON</button>
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <div class="coupon">
+                  <div class="container2">
+                    <h3 class="company-logo">SAVE 20%</h3><span class="close">&times;</span>
+                  </div>
+                  <div class="image-area">
+                    <img class="image-coupon" src="images\amazon.jpg" alt="Avatar" style="width:100%;"></div>
+                  <div class="container2" style="background-color:white">
+                    <div class="promo-code">
+                      BH4238V
+                    </div>
+                    <button type="button" class="btn btn-primary">COPY CODE</button>
+                  </div><br>
+                  <div class="container2">
+
+                    <p class="expire">Expires: Jan 03, 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/samsung.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">SAVE 15%</h5>
+            <p class="card-text">Samsung BlueFest – Upto 65% Off Deals + Upto Rs.6000 HDFC CB + Exchange & No Cost EMI Offer</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-success" id="myBtn">GET THIS COUPON</button>
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <div class="coupon">
+                  <div class="container2">
+                    <h3 class="company-logo">SAVE 20%</h3><span class="close">&times;</span>
+                  </div>
+                  <div class="image-area">
+                    <img class="image-coupon" src="images\amazon.jpg" alt="Avatar" style="width:100%;"></div>
+                  <div class="container2" style="background-color:white">
+                    <div class="promo-code">
+                      BH4238V
+                    </div>
+                    <button type="button" class="btn btn-primary">COPY CODE</button>
+                  </div><br>
+                  <div class="container2">
+
+                    <p class="expire">Expires: Jan 03, 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/lifestyle.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Half Price Early Preview Sale – Upto 50% Off + Extra 10% Off On Rs.1999 + 5% SBI Cashback</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-success" id="myBtn">GET THIS COUPON</button>
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <div class="coupon">
+                  <div class="container2">
+                    <h3 class="company-logo">SAVE 20%</h3><span class="close">&times;</span>
+                  </div>
+                  <div class="image-area">
+                    <img class="image-coupon" src="images\amazon.jpg" alt="Avatar" style="width:100%;"></div>
+                  <div class="container2" style="background-color:white">
+                    <div class="promo-code">
+                      BH4238V
+                    </div>
+                    <button type="button" class="btn btn-primary">COPY CODE</button>
+                  </div><br>
+                  <div class="container2">
+
+                    <p class="expire">Expires: Jan 03, 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/adidas.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Sale – Upto 40% Off + Extra 15% Off On Footwear, Clothing & Accessories</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-success" id="myBtn">GET THIS COUPON</button>
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <div class="coupon">
+                  <div class="container2">
+                    <h3 class="company-logo">SAVE 20%</h3><span class="close">&times;</span>
+                  </div>
+                  <div class="image-area">
+                    <img class="image-coupon" src="images\amazon.jpg" alt="Avatar" style="width:100%;"></div>
+                  <div class="container2" style="background-color:white">
+                    <div class="promo-code">
+                      BH4238V
+                    </div>
+                    <button type="button" class="btn btn-primary">COPY CODE</button>
+                  </div><br>
+                  <div class="container2">
+
+                    <p class="expire">Expires: Jan 03, 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/flip.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">SAVE 10%</h5>
+            <p class="card-text">Laptop Bonanza – Upto 45% Off On Top Brands + Extra 10% HDFC Off + No Cost EMI & Exchange</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-success" id="myBtn">GET THIS COUPON</button>
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <div class="coupon">
+                  <div class="container2">
+                    <h3 class="company-logo">SAVE 20%</h3><span class="close">&times;</span>
+                  </div>
+                  <div class="image-area">
+                    <img class="image-coupon" src="images\amazon.jpg" alt="Avatar" style="width:100%;"></div>
+                  <div class="container2" style="background-color:white">
+                    <div class="promo-code">
+                      BH4238V
+                    </div>
+                    <button type="button" class="btn btn-primary">COPY CODE</button>
+                  </div><br>
+                  <div class="container2">
+
+                    <p class="expire">Expires: Jan 03, 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/m.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">All User – Upto 70% Off + Extra Rs.300 Off On Prepaid Order Of Rs.999</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-success" id="myBtn">GET THIS COUPON</button>
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <div class="coupon">
+                  <div class="container2">
+                    <h3 class="company-logo">SAVE 20%</h3><span class="close">&times;</span>
+                  </div>
+                  <div class="image-area">
+                    <img class="image-coupon" src="images\amazon.jpg" alt="Avatar" style="width:100%;"></div>
+                  <div class="container2" style="background-color:white">
+                    <div class="promo-code">
+                      BH4238V
+                    </div>
+                    <button type="button" class="btn btn-primary">COPY CODE</button>
+                  </div><br>
+                  <div class="container2">
+
+                    <p class="expire">Expires: Jan 03, 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/swiggy.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">New User – Flat 50% Off On 1st Order, Minimum Order Value Of Rs.129</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-success" id="myBtn">GET THIS COUPON</button>
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <div class="coupon">
+                  <div class="container2">
+                    <h3 class="company-logo">SAVE 20%</h3><span class="close">&times;</span>
+                  </div>
+                  <div class="image-area">
+                    <img class="image-coupon" src="images\amazon.jpg" alt="Avatar" style="width:100%;"></div>
+                  <div class="container2" style="background-color:white">
+                    <div class="promo-code">
+                      BH4238V
+                    </div>
+                    <button type="button" class="btn btn-primary">COPY CODE</button>
+                  </div><br>
+                  <div class="container2">
+
+                    <p class="expire">Expires: Jan 03, 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/swiggy.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">New User – Flat 50% Off On 1st Order, Minimum Order Value Of Rs.129</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-success" id="myBtn">GET THIS COUPON</button>
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <div class="coupon">
+                  <div class="container2">
+                    <h3 class="company-logo">SAVE 20%</h3><span class="close">&times;</span>
+                  </div>
+                  <div class="image-area">
+                    <img class="image-coupon" src="images\amazon.jpg" alt="Avatar" style="width:100%;"></div>
+                  <div class="container2" style="background-color:white">
+                    <div class="promo-code">
+                      BH4238V
+                    </div>
+                    <button type="button" class="btn btn-primary">COPY CODE</button>
+                  </div><br>
+                  <div class="container2">
+
+                    <p class="expire">Expires: Jan 03, 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <input type=button class="myButton" onClick="parent.location='exclusiveCoupon.html'" value='Show All Coupons'>
+
+      </div>
+    </div>
+  </div>
+  <br>
+
+
+
+
+
+
+  <div class="cat">
+    <h1>POPULAR CATEGORIES
+      <hr />
+    </h1>
+    <div class="card-group">
+      <div class="card-io">
+        <a href="beauty.html"><img src="images/bb.png" class="card-img-top-io" alt="..."></a>
+        <div class="card-body-io">
+
+          <h5 class="card-title"><b>BEAUTY</b></h5>
+        </div>
+
+      </div>
+      <div class="card-io">
+        <a href="computer.html"><img src="images/comp.png" class="card-img-top-io" alt="..."></a>
+        <div class="card-body-io">
+          <h5 class="card-title"><b>COMPUTERS, LAPTOPS & GAMINGS</b></h5>
+        </div>
+
+      </div>
+      <div class="card-io">
+        <a href="mobile.html"><img src="images/mobiless.png" class="card-img-top-io" alt="..."></a>
+        <div class="card-body-io">
+          <h5 class="card-title"><b>MOBILES & TABLETS</b></h5>
+        </div>
+
+      </div>
+
+      <div class="card-io">
+        <a href="food.html"><img src="images/dining.png" class="card-img-top-io" alt="..."></a>
+        <div class="card-body-io">
+          <h5 class="card-title"><b>FOOD & DINING</b></h5>
+        </div>
+      </div>
+
+
+      <div class="card-io">
+        <a href="recharge.html"><img src="images/rechargee.png" class="card-img-top-io" alt="..."></a>
+        <div class="card-body-io">
+          <h5 class="card-title"><b>RECHARGE</b></h5>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  </div>
+  <br />
+  <br />
+  <div class="end">
+
+    <h9>Save real money over & above offers & discounts!</h9>
+  </div>
+
+
+  <form class="form-inline-io">
+
+    <img src="images/co.jpg" class="imag" />
+    <img src="images/mo.png" class="imag" />
+
+
+
+  </form>
+  </div>
+
+  <!--footer start////////////////-->
+
+
+  <section class="footer" id="footer">
+
+    <div class="container3">
+
+
+      <div class="row text-center text-xs-center text-sm-left text-md-left">
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <h6>HELP</h6>
+          <ul class="list-unstyled quick-links">
+            <li><a href="contactUs.html">Contact</a></li>
+            <li><a href="terms.html">Terms Of Use</a></li>
+
+            <li><a href="howToUse.html">How To Apply</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <h6>COUPON THIKANA</h6>
+          <ul class="list-unstyled quick-links">
+            <li><a href="aboutUs.html">About Us</a></li>
+            <li><a href="link.html">List Your Business</a></li>
+            <li><a href="whatWeDo.html">What we do</a></li>
+
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <h6>MISC</h6>
+          <ul class="list-unstyled quick-links">
+            <li><a href="privacyPolicy.html">Privacy Policy</a></li>
+            <li><a href="termsAndCond.html">Terms And Conditions</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+          <ul class="list-unstyled list-inline social text-center">
+            <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="iconn fab fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="iconn fab fa-facebook-f"></i></a></li>
+
+            <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="iconn fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+        <hr>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+          <p><u><a href="">National Transaction Corporation</a></u> is a Registered MSP/ISO of Elavon, Inc. Georgia [a wholly owned subsidiary of U.S. Bancorp, Minneapolis, MN]</p>
+          <p class="h6">© All right Reversed.<a class="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">Naman Jain</a></p>
+        </div>
+        <hr>
+      </div>
+    </div>
+  </section>
+
+
+</body>
+
+</html>

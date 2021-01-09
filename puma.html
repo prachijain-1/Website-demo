@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+    <title>Shop Homepage - Start Bootstrap Template</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <script src="js/seeMoreFunctionFile - Copy.js"></script>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link href="css/shop-homepage - Copy.css" rel="stylesheet">
+  <link href="css/header-normal.css" rel="stylesheet">
+
+
+</head>
+
+<body onload="showFilter(); seeMoreFunction() ; Modal() ; openNav() ; closeNav() ; mobileView()">
+
+  <!-- Navigation -->
+  <nav>
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-light">
+
+        <button class="openbtn" id="openbtn" onclick="openNav()">☰</button>
+        <img class="navbar-brand" src="images/logo - Copy.png" height="50" / />
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home<hr class="line" style="display:none"></a>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <button onclick="mobileView()" class="dropbtn">Shopping<hr class="line" style="display:none"></button>
+                <div class="dropdown-content a">
+                  <div class="row">
+                    <div class="column">
+                      <p type="button" onclick="mobileViewUnder()" class="heading-of">Mobile and Electronics
+                        <hr class="separate">
+                      </p><div class="mobileViewUnder">
+
+
+                        <a href="mobile.html">Mobile Phone</a>
+                        <a href="computer.html">Computer and Laptop</a>
+                        <a href="electronics.html">Electronics</a>
+                        <a href="powerBanks.html">Power Banks</a>
+                        <a href="washingMachine.html">Washing Machines</a>
+                    </div></div>
+                    <div class="column">
+                      <p type="button" onclick="mobileViewUnder()" class="heading-of">Fashion and Lifestyle
+                        <hr class="separate">
+                      </p>
+                      <div class="mobileViewUnder">
+                        <a href="clothes.html">Clothes</a>
+
+                        <a href="footwear.html">Footwear</a>
+                        <a href="watches.html">Watches</a>
+
+                        <a href="beauty.html">Beauty</a>
+
+                      <!--  <a href="#">Trimmers and Shavers</a>-->
+                        <a href="bags.html">Bags</a>
+                        <a href="sunglasses.html">Sunglasses</a>
+                    </div></div>
+
+                    <div class="column">
+                      <p type="button" onclick="mobileViewUnder()" class="heading-of">Other Categories
+                        <hr class="separate">
+                      </p><div class="mobileViewUnder">
+                        <a href="recharge.html">Mobile Recharge</a>
+                        <a href="babyProduct.html">Baby Products</a>
+                        <a href="book.html">Books</a>
+                        <a href="car.html">Car Accessories</a>
+                        <a href="grocery.html">Grocery</a>
+                        <a href="health.html">Health and Fitness</a>
+                        <a href="sports.html">Sports Products</a>
+                        <a href="homeApp.html">Home Appliances</a>
+                    </div></div>
+                    <div class="column">
+                      <p type="button" onclick="mobileViewUnder()" class="heading-of">Top Brands
+                        <hr class="separate">
+                      </p>
+                      <div class="mobileViewUnder">
+                        <a href="adidas.html">Adidas</a>
+                        <a href="nike.html">Nike</a>
+                        <a href="puma.html">Puma</a>
+                        <a href="benetton.html">Benetton</a>
+                        <a href="samsung.html">Samsung</a>
+                        <a href="apple.html">Apple</a>
+                    </div></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown" >
+                <button onclick="mobileView()" class="dropbtn">Travel<hr class="line" style="display:none"></button>
+                <div class="dropdown-content a" style="max-width:400%;min-width:400%">
+                  <a href="domestic.html">Domestic Flights</a>
+                  <a href="inter.html">International Flights</a>
+                  <a href="hotel.html">Hotel Booking</a>
+                  <a href="bus.html">Bus Tickets</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown" >
+                <button onclick="mobileView()" class="dropbtn">Bank<hr class="line" style="display:none"></button>
+                <div class="dropdown-content a" style="max-width:400%;min-width:400%">
+                  <a href="hdfc.html">HDFC Bank Offers</a>
+                  <a href="icici.html">ICICI Bank Offers</a>
+                  <a href="axis.html">AXIS Bank Offers</a>
+                  <a href="sbi.html"> SBI Card Offers</a>
+                </div>
+              </div>
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="food.html">Food<hr class="line" style="display:none"></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="index.html.#dealss">Top Deals<hr class="line" style="display:none"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html.#exclusivee">Exclusive<hr class="line" style="display:none"></a>
+            </li>
+
+          </ul>
+        </div>
+        <form class="form-inline">
+
+          <a class="mp" href="signUp.html"><i class="fas fa-user"></i></a>
+        </form>
+      </nav>
+    </div>
+  </nav>
+<hr class="header-end">
+
+<div class="photo-particular">
+<img class="pic" src="images/puma.jpg" alt="">
+<div class="pic-head" style="display:inline-block; color:white;margin-left:5%;margin-top:2%">
+  <h1 class="give-heading-pic">Offers On Puma Brand</h1>
+  <p style="font-size:1rem; color:darkgrey">20 Coupons and Offers</p>
+  <div class="btn-group">
+    <button class="all">All(60)</button>
+    <button class="all-next">Coupons(39)</button>
+    <button class="all-2next">Offers(21)</button>
+</div>
+</div>
+
+</div>
+
+
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-lg-3">
+
+        <h1 class="my-4">Filters</h1>
+        <div class="list-group">
+          <button type="button" class="collapsible">Sub-Categories</button>
+          <div class="content">
+            <ul STYLE="padding:0">
+              <input type="checkbox" name="" value="">Mobile Phone
+              <br><br>
+              <input type="checkbox" name="" value="">Computer and Laptop
+              <br><br>
+              <input type="checkbox" name="" value="">Electronics
+              <br><br>
+              <input type="checkbox" name="" value="">Pen Drives and Hard Disks
+              <br><br>
+              <input type="checkbox" name="" value="">Power Banks
+              <br><br>
+              <input type="checkbox" name="" value="">Camera
+              <br><br>
+              <input type="checkbox" name="" value="">Tablets
+              <br><br>
+              <input type="checkbox" name="" value="">Television
+              <br><br>
+              <input type="checkbox" name="" value="">Air Conditioners
+              <br><br>
+              <input type="checkbox" name="" value="">Washing Machines
+              <br><br>
+            </ul>
+          </div>
+          <button type="button" class="collapsible">Top Stores</button>
+          <div class="content">
+            <ul>
+              <input type="checkbox" name="" value="">Amazon
+              <br><br>
+              <input type="checkbox" name="" value="">Flipkart
+            </ul>
+          </div>
+          <button type="button" class="collapsible">Popular Categories</button>
+          <div class="content">
+            <ul>
+              <input type="checkbox" name="" value="">Fashion and Lifestyle
+              <br><br>
+              <input type="checkbox" name="" value="">Mobile and Electronics
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- /.col-lg-3 -->
+
+      <div class="col-lg-9">
+        <div class="card mb-3" >
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="images/ajio.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p><button class="see-more"><u>See More</u></button></p>
+
+
+              </div>
+
+            </div>
+            <button type="button" class="btn btn-primary a" id="myBtn">GET DEAL</button>
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <div class="coupon">
+                  <div class="container2">
+                    <h3 class="company-logo">SAVE 20%</h3><span class="close">&times;</span>
+                  </div>
+                  <div class="image-area">
+                    <img class="image-coupon" src="images\amazon.jpg" alt="Avatar" style="width:100%;"></div>
+                  <div class="container2" style="background-color:white">
+                    <div class="promo-code">
+                      BH4238V
+                    </div>
+                    <button type="button" class="btn btn-primary">COPY CODE</button>
+                  </div><br>
+                  <div class="container2">
+
+                    <p class="expire">Expires: Jan 03, 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="" style="display:none;padding:4%">
+          This is a wider card with supporting text below as a natural lead-in to additional content. This content is a littleThis is a wider card with supporting text below as a natural lead-in to additional content. This content is a little
+          This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little
+          This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little
+          This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little
+          This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little
+          This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little
+          </div>
+        </div>
+        <div class="card mb-3" >
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="images/ajio.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p><button class="see-more"><u>See More</u></button></p>
+
+
+              </div>
+
+            </div>
+            <button type="button" class="btn btn-primary a" id="myBtn">GET DEAL</button>
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <div class="coupon">
+                  <div class="container2">
+                    <h3 class="company-logo">SAVE 20%</h3><span class="close">&times;</span>
+                  </div>
+                  <div class="image-area">
+                    <img class="image-coupon" src="images\amazon.jpg" alt="Avatar" style="width:100%;"></div>
+                  <div class="container2" style="background-color:white">
+                    <div class="promo-code">
+                      BH4238V
+                    </div>
+                    <button type="button" class="btn btn-primary">COPY CODE</button>
+                  </div><br>
+                  <div class="container2">
+
+                    <p class="expire">Expires: Jan 03, 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="" style="display:none;padding:4%">
+          This is a wider card with supporting text below as a natural lead-in to additional content. This content is a littleThis is a wider card with supporting text below as a natural lead-in to additional content. This content is a little
+          This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little
+          This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little
+          This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little
+          This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little
+          This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little
+          </div>
+        </div>
+        <div class="card mb-3" >
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="images/ajio.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p><button class="see-more"><u>See More</u></button></p>
+
+
+              </div>
+
+            </div>
+            <button type="button" class="btn btn-primary a" id="myBtn">GET DEAL</button>
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <div class="coupon">
+                  <div class="container2">
+                    <h3 class="company-logo">SAVE 20%</h3><span class="close">&times;</span>
+                  </div>
+                  <div class="image-area">
+                    <img class="image-coupon" src="images\amazon.jpg" alt="Avatar" style="width:100%;"></div>
+                  <div class="container2" style="background-color:white">
+                    <div class="promo-code">
+                      BH4238V
+                    </div>
+                    <button type="button" class="btn btn-primary">COPY CODE</button>
+                  </div><br>
+                  <div class="container2">
+
+                    <p class="expire">Expires: Jan 03, 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="" style="display:none;padding:4%">
+          This is a wider card with supporting text below as a natural lead-in to additional content. This content is a littleThis is a wider card with supporting text below as a natural lead-in to additional content. This content is a little
+          This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little
+          This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little
+          This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little
+          This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little
+          This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little
+          </div>
+        </div>
+
+
+
+        <!-- /.row --><div class="search-row">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!
+        </div>
+      </div>
+      <!-- /.col-lg-9 -->
+
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+
+  <section class="footer" id="footer">
+
+    <div class="container3">
+      
+
+      <div class="row text-center text-xs-center text-sm-left text-md-left">
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <h6>HELP</h6>
+          <ul class="list-unstyled quick-links">
+            <li><a href="contactUs.html">Contact</a></li>
+            <li><a href="terms.html">Terms Of Use</a></li>
+
+            <li><a href="howToUse.html">How To Apply</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <h6>COUPON THIKANA</h6>
+          <ul class="list-unstyled quick-links">
+            <li><a href="aboutUs.html">About Us</a></li>
+            <li><a href="link.html">List Your Business</a></li>
+            <li><a href="whatWeDo.html">What we do</a></li>
+
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <h6>MISC</h6>
+          <ul class="list-unstyled quick-links">
+            <li><a href="privacyPolicy.html">Privacy Policy</a></li>
+            <li><a href="termsAndCond.html">Terms And Consitions</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+          <ul class="list-unstyled list-inline social text-center">
+            <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="iconn fab fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="iconn fab fa-facebook-f"></i></a></li>
+
+            <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="iconn fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+        <hr>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+          <p><u><a href="">National Transaction Corporation</a></u> is a Registered MSP/ISO of Elavon, Inc. Georgia [a wholly owned subsidiary of U.S. Bancorp, Minneapolis, MN]</p>
+          <p class="h6">© All right Reversed.<a class="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">Naman Jain</a></p>
+        </div>
+        <hr>
+      </div>
+    </div>
+  </section>
+
+
+</body>
+
+</html>

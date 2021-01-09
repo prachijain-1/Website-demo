@@ -1,0 +1,927 @@
+.collapse{
+  display: block;
+  }
+  .collapse:not(.show) {
+    display: block;
+}@media(max-width:991px){
+  button.dropbtn{
+    outline:none;
+    border:none;
+  }
+  .dropdown-content.a a {
+  color: lightblue !important;
+}
+  .mobileViewUnder{
+    display:none;
+
+  }.mobileViewUnder a{
+    color: lightblue !important;
+    }.line{
+    display:block !important;
+  }.separate{
+    border:0 !important;
+    margin:0 !important;
+  }.collapse{
+    background-color: black !important;
+    padding: 0 !important;
+  }.dropdown-content.a{
+    color:white !important;
+  }
+.dropbtn{
+padding-left:0 !important;
+padding-right:0 !important;
+background-color: black !important;
+}
+.column{
+width:100% !important;
+}.navbar-nav{
+text-align:left !important;
+}
+  #navbarNavDropdown{
+    margin-left: 0 !important;
+
+  }
+  .dropdown-content a{
+    display:none;
+    font-size: 1.2rem;
+  }
+  .navbar-nav{
+    position:absolute;
+    top:10%;
+  }
+.collapse   {
+
+width: 0;
+position: fixed;
+z-index: 4;
+height: 100%;
+top: 0;
+background-color: white;
+color: black;
+left: 0;
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
+margin-left:0;
+padding-left:0;
+}
+
+.collapse a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 1.12em;
+margin-left: 7%;
+display: block;
+transition: 0.3s;
+}
+
+.collapse a:hover {
+}
+
+.collapse .closebtn {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+}
+
+.openbtn {
+font-size: 20px;
+cursor: pointer;
+background-color: #111;
+color: white;
+padding: 10px 15px;
+border: none;
+}
+
+.openbtn:hover {
+background-color:#444;
+}}
+@media(min-width:992px){
+.collapse {
+  margin-left: 40px;
+  padding-left: 30px;
+}
+.closebtn , .openbtn{
+  display:none;
+}
+.column a{
+  display:block;
+  }}
+
+
+
+
+
+
+
+
+
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 30%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.coupon {
+
+  width: 100%;
+  border-radius: 30px;
+  margin: 0;
+  max-width: 600px;
+}
+
+.container2 {
+  padding: 2px 16px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.promo {
+  background: #ccc;
+  padding: 3px;
+}
+
+.expire {
+  color: red;
+}
+.coupon .container2{
+  margin-left: 0;
+}
+img.image-coupon{
+  height:250px;
+  width: 70%;
+}
+.company-logo{
+  display: inline-block;
+}
+.image-area{
+  width: 60%;
+  margin-left: 20%;
+}
+.promo-code{
+  display:inline-block;
+  border:dashed;
+  border-color: lightcoral;
+  padding-right: 5%;
+padding-left: 5%;
+padding-top: 3%;
+padding-bottom: 3%;
+
+margin-left: 0px;
+margin-right: 5%;
+}
+@media(max-width:1206px){
+  .modal-content{
+    width: 40%;
+  }
+}
+@media(max-width:893px){
+  .modal-content{
+    width: 50%;
+  }
+}
+@media(max-width:728px){
+  .modal-content{
+    width:80%;
+  }
+}
+
+
+
+
+
+button.mp.search{
+  background-color: #0d4d6e;
+  border:none;
+  outline:none;
+}
+button.btn.btn-outline-success.my-2.my-sm-0 {
+    background-color: cadetblue;
+}
+.mp{
+  padding:0;
+}
+.search-bar{
+  position: absolute;
+    top: 2%;
+    left: 70%;
+    right: 0px;
+    display:block;
+}
+
+@media only screen and (max-width:991px){
+  .navbar-brand{
+    margin:0;
+    position: absolute;
+    left:8%;
+  }.form-inline{margin-left:0;}}@media only screen and (max-width:1047px){
+    button.myButton{
+      margin-left:33%;
+    }.form-inline{margin-left:0;}.card-io{
+      margin-bottom: 1%;
+      min-width:30% !important;
+
+    }
+  }
+  @media only screen and (max-width:1405px) and (min-width:991px){
+    .navbar-brand{
+      margin:0;
+      position: absolute;
+      left: 2%;
+    }.navbar-nav{
+      position:absolute;
+      left:20%;margin-left:0;
+    }
+    .form-inline{margin-left:0;}
+  }@media(min-width:1405px){
+    form.form-inline{
+      margin-left: 8%;
+    }
+  }
+
+  .form-control{
+  width:60%;
+  height: auto;
+
+    display: inline-block;
+}html{
+  width: 100%;
+  overflow-x: hidden;
+  }.carousel-inner{
+  width:57%;display: inline-block;left: -8%;
+  }.carousel-indicators{
+    left:60%;
+    top:80%;
+    }.carousel-item active{
+      margin-left:0;
+      }.subscribe-img{width: 100px;
+height: 60px;
+margin-right: 80%;}
+.subscribe-heading{
+  width:40%;
+  display: inline-block;    color: white;
+    font-size: 1.5rem;
+    margin-top: 2%;
+  }
+  .subscribe{
+    width: 100%;
+    height: 160px;
+    background-color: #0f4a3b
+    }.slider-side-cont{
+width: 30%;
+color: white;display: inline-block;position: absolute;
+left:58%;top:20%;
+}
+.slider-side-down-cont{
+
+      height: 10%;
+      min-width: 550px;
+
+      padding-right: 15%;
+}
+.slider-side-cont-heading{
+font-size:4rem;line-height:70px;font-weight: 700;padding-bottom: 50px;
+}
+h1.types1 {
+    margin-top: 3.5%;
+    padding-left: 7%;
+    text-align: left;
+    font-weight: 700;
+    font-size: 3rem;}
+.over-it{
+  width:30%;
+  margin-right: 0;
+  background: transparent;
+}
+body{
+
+background-color: #0e0e0e;
+}
+.navbar{
+  background-color: #0d4d6e;
+  color:white;
+  padding-left:5%;
+  padding-top: 0;
+  padding-bottom: 0;
+}.navbar-brand{
+  height:3.5rem;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+nav{
+  height:4rem;
+}li.nav-item {
+    padding-right: 2%;
+}
+.carousel-item{
+
+  width:100%;
+}
+body{
+  overflow-x: hidden;
+}img.d-block.w-100 {
+    height: 410px;
+}.dropbtn {
+  background-color: #0d4d6e;
+  color: white;
+
+  font-size: 1.2em;
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+}div#carouselExampleCaptions {
+    background-color: #0d4d6e;
+    height:400px;
+}
+.header-end{
+margin-top: 0;
+margin-bottom: 0;
+border: none;
+border-top: 1px solid white;
+}
+img.d-block.w-100{
+  margin-top: 4%;
+}
+.myButton {
+	background-color:#44c767;
+	border-radius:6px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:17px 40px;
+	text-decoration:none;
+	text-shadow:0px 0px 13px #2f6627;margin-left:41%;
+  margin-top:3%;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+  color: white;
+
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+  min-width:100%;
+  padding-left: 0;
+  padding-right: 0;
+
+}
+img.card-img-top {
+    height: 30%;
+  padding:2%;
+    width: 70%;
+}
+
+.card-title{font-size:1.35rem;}
+.card-text{font-size: 1rem;}.card-body-io .card-title {
+    font-size: 1rem;
+}
+.card-deck{
+  width:100%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.card-body{
+  height:40%;
+}
+
+.card-group{
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.card-io{
+min-width: 19%;
+max-width: 19%;
+height:10rem;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 0px;
+    height: 0px;}
+.card{height:20rem;}
+.card-body-io{
+  text-align:center;
+  width:100%;
+  margin-top: 10%;
+  align-items: center;
+}
+.card-img-top-io{
+  width: 3em;
+  text-align: center;
+  margin-top: 15%;
+  align-items: center;
+}
+.fixed-top{
+  position:static;
+}
+.types{
+  text-align: left;
+  margin-top:5%;
+}
+img.card-img-top{
+  height:30%;
+}
+.card-body{height:50%;}
+.card-footer{height:20%;margin-bottom: 0;}
+
+
+body{
+  background-color: #e9ecef;
+text-align:center;
+}
+
+.btn-outline-success {
+    color: white;
+    border-color: #28a745;
+    background-color: #28a745;
+}
+
+.form-inline{
+  min-width: 10%;
+
+
+}
+.log-in{
+  margin-left: 40%;
+  background-color: #086972;padding: 0;
+border: none;
+background: none;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: white;
+  font-size:1.2em;
+
+}
+
+.navbar-nav{
+  width:100%;
+}
+
+#navbarNavDropdown{
+  margin-left: 16%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.collapse {
+  margin-left: 40px;
+  padding-left: 30px;
+}
+
+.navbar-brand{
+  margin-left: 8%;
+  display: inline-block;
+}
+
+header{
+
+  width: 100%;
+}
+
+
+
+.jumbotron{
+  padding:0 2rem;
+
+}
+
+.menu{
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+
+.form-inline{
+color: white;
+text-align: center;
+
+}
+h1,h2{
+  padding: 1%;
+  font-size: 2rem;;
+  text-align: center;
+}
+.end{
+  background-color:#810b20;
+  color: white;
+  padding: 2%;
+  text-align: center;
+  font-size: 1.65em;
+}
+form.form-inline-io {
+    padding: 1%;
+}
+.redd{
+margin-top: 90px;
+text-align: center;}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding:5px;
+}
+
+
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column1{
+  float: left;
+  width: 33.33%;
+  padding:  20px;
+  font-size: 15px;
+
+  height: 350px; /* Should be removed. Only for demonstration */
+}
+p{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: normal;
+}
+
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.card-deck{
+  text-align: center;
+
+
+}
+.card{
+  min-width:22%;
+  max-width:22%;
+  margin:2% 0.1%;
+display:inline-block;
+
+text-align: center;
+}
+.card-footer{
+  text-align:center;
+}
+
+@media only screen and (max-width:1050px){body{width:100%;overflow-x: hidden;}
+  .card-deck{position:static;
+text-align:center;
+
+  }
+  .card{
+    position:static;
+    text-align:center;
+    min-width: 42%;
+    display:inline-block;
+  }
+  .card-img-top{
+    min-width:70%;
+    min-height:30%;
+  }
+}
+@media only screen and(max-width:600px){body{width:100%;overflow-x: hidden;}
+  .card{
+    position:static;  text-align:center;
+      min-width: 90%;
+      display:inline-block;
+  }
+.card-img-top{
+  min-width:70%;
+  min-height:30%;
+}.head{
+  width:30%;
+  height: 30%;}}
+.head{
+
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  margin-left: auto;
+  margin-right: auto;
+  padding:0.2em;
+}
+
+
+
+/* @media(max-width:1060px){
+
+nav.navbar.navbar-light{
+  width: auto;
+}
+
+.mp{
+  width: auto;
+
+}
+
+nav.navbar.navbar-light{
+  width: auto;
+}
+
+} */
+
+
+
+@media only screen(max-width:1320px){body{width:100%;overflow-x: hidden;}
+  .navbar navbar-expand-lg navbar-light bg-light{
+    position:static;
+  }
+  .nav-item{
+    margin: auto;
+    padding:2%;
+  }
+  .form-inline,.collapse {
+    width:auto;
+  }
+  .collapse {
+    width:auto;
+  }
+  .btn {
+    width:auto;
+  }
+}
+.footer-container{
+  padding-top:0;
+  padding-bottom: 0;
+}
+a{
+  color: white;
+}
+.socialcontact{
+  display:inline-block;
+
+margin-left:20%;
+font-size: 150%;color:white;
+}
+.col-md-6 {
+  padding-right: 30%;font-size: 150%;color:white;display:inline-block;
+}
+.footer-copyright{
+  background-color: #01a9b4;
+  color:white;
+}
+
+
+.svg-inline--fa.fa-w-16{
+  width: 5em;
+  height: 2em;
+  color: white;
+}
+
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;text-align: left;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 400%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;padding:1rem 1rem;
+  font-size: 1rem;
+}
+.dropdown-content.a{
+  min-width:800%;
+}
+.heading-of{
+  font-size: 1rem;
+  color: green;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 0.2rem;
+  text-decoration: none;
+  display: block;
+
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #086972;
+color:black;}
+
+
+.main-body{
+  margin-top:10%;
+}
+.card-body{
+  height:50%;
+}
+.main-card-body{
+text-align: left;
+  margin-left:10%;
+  width:60%;
+}
+.card-img{
+height:100%;
+}
+.heading-for-particular-type{
+  text-align:left;
+  margin-top: 28%;
+}
+.inside-card-img-top{
+  width:100%;
+}
+.main-card-body .card-text, .main-card-body .card-title{
+  text-align:left;
+}
+
+.inside-card-img-top .card-img-top{
+  padding:0;
+}
+.inside-card-img-top .card{
+  max-width:15%;
+}
+.main-card-body .col-md-4{
+  max-width:20%;
+}
+.main-card-body .col-md-8{
+  max-width:60%;
+}
+.main-card-body .col-md-16{
+  max-width:20%;
+}
+.main-card-body .btn{
+  margin:50% 0;
+  border:10% 20%;
+}
+
+h5{
+  font-size: 0.9rem;
+  text-align: center;
+
+}
+.card-io{
+  border: solid 1px;
+margin-left: 1%;
+border-color: #999999;
+border-radius: 1rem;
+}
+
+.card-group{
+  margin-left: 8%;
+  margin-right: 8%;
+}
+.navbar-io{
+}
+
+.imag{
+  width: 40%;
+  height: 20%;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+
+h2{
+text-align: center;
+padding: 3%;
+}
+.main-card-body .btn{
+  padding:0.75em 1.5em;
+}
+.container .card{
+  height:20rem;
+}
+.heading-coupon{
+  text-align: left;
+}
+.table{width:20%;}
+#footer{
+
+
+background: black;
+}
+
+.row.text-center.text-xs-center.text-sm-left.text-md-left {
+    margin-top: 4%;
+    margin-left: 8%;
+  }
+  h7{
+    color: white;
+    font-size: 2em;
+  }
+  .h6, h6 {
+      font-size: 1.26rem;
+      color: lightcyan;
+  }
+svg.svg-inline--fa.fa-twitter.fa-w-16.iconn{
+  height: 1.2em;
+  width: auto;
+  font-size: 1.56em;
+}
+.iconn{
+  font-size: 1.78em;
+}
+li.list-inline-item{
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.lead{
+  text-align: left;
+}
+
+
+.container3{
+  padding-top: 0.1%;
+}
